@@ -1,4 +1,4 @@
-# проводимо t-тест в R
+# проводимо t-тест за допомогою RStudio
 library(readxl)
 mos <- read_excel(path = '/BeerAndMosquitoes.xlsx', sheet = 'mosquitoes')
 str(mos)
